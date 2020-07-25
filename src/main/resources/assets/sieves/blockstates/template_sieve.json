@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "sieves:block/template_sieve" }
+  }
+}

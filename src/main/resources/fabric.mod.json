@@ -1,13 +1,13 @@
 
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "sieve",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Sieve It",
+  "description": "Adds customizable Sieves for skyblock packs!",
   "authors": [
-    "Me!"
+    "Draylar"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -20,18 +20,18 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.draylar.modid.ExampleMod"
+      "draylar.sieves.SieveMod"
+    ],
+    "client": [
+      "draylar.sieves.SieveModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "sieves.mixins.json"
   ],
 
   "requires": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }

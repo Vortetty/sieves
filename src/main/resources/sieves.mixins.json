@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "com.github.draylar.modid.mixin",
+  "package": "draylar.sieves.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-
+    "BlockSoundGroupAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
