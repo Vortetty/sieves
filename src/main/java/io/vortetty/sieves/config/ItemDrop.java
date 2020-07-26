@@ -1,4 +1,4 @@
-package draylar.sieves.config;
+package io.vortetty.sieves.config;
 
 public class ItemDrop {
 

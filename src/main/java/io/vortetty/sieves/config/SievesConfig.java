@@ -1,4 +1,4 @@
-package draylar.sieves.config;
+package io.vortetty.sieves.config;
 
 import me.sargunvohra.mcmods.autoconfig1u.ConfigData;
 import me.sargunvohra.mcmods.autoconfig1u.annotation.Config;

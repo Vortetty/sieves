@@ -1,6 +1,6 @@
-package draylar.sieves.client.renderer;
+package io.vortetty.sieves.client.renderer;
 
-import draylar.sieves.entity.SieveBlockEntity;
+import io.vortetty.sieves.entity.SieveBlockEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.block.entity.BlockEntityRenderDispatcher;

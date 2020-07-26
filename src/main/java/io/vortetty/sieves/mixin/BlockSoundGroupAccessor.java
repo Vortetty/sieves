@@ -1,4 +1,4 @@
-package draylar.sieves.mixin;
+package io.vortetty.sieves.mixin;
 
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;

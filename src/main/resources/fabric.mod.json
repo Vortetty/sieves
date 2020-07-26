@@ -20,10 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "draylar.sieves.SieveMod"
+      "io.vortetty.sieves.SieveMod"
     ],
     "client": [
-      "draylar.sieves.SieveModClient"
+      "io.vortetty.sieves.SieveModClient"
     ]
   },
   "mixins": [

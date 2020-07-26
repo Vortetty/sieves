@@ -1,6 +1,6 @@
-package draylar.sieves.registry;
+package io.vortetty.sieves.registry;
 
-import draylar.sieves.SieveMod;
+import io.vortetty.sieves.SieveMod;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
 

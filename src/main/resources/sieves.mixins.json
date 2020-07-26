@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "draylar.sieves.mixin",
+  "package": "io.vortetty.sieves.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "BlockSoundGroupAccessor"

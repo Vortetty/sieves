@@ -1,6 +1,6 @@
-package draylar.sieves.registry;
+package io.vortetty.sieves.registry;
 
-import draylar.sieves.entity.SieveBlockEntity;
+import io.vortetty.sieves.entity.SieveBlockEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;

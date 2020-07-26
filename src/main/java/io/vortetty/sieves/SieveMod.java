@@ -1,11 +1,11 @@
-package draylar.sieves;
+package io.vortetty.sieves;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import draylar.sieves.config.IdentifierDeserializer;
-import draylar.sieves.registry.SievesContent;
-import draylar.sieves.registry.Entities;
-import draylar.sieves.config.SievesConfig;
+import io.vortetty.sieves.config.IdentifierDeserializer;
+import io.vortetty.sieves.registry.SievesContent;
+import io.vortetty.sieves.registry.Entities;
+import io.vortetty.sieves.config.SievesConfig;
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -25,7 +25,7 @@ public class SieveMod implements ModInitializer {
 	public void onInitialize() {
 		SievesContent.init();
 		Entities.init();
-		draylar.sieves.registry.Items.init();
+		io.vortetty.sieves.registry.Items.init();
 	}
 
 	public static Identifier id(String name) {

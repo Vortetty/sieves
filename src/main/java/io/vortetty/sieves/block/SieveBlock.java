@@ -1,7 +1,7 @@
-package draylar.sieves.block;
+package io.vortetty.sieves.block;
 
-import draylar.sieves.entity.SieveBlockEntity;
-import draylar.sieves.config.SieveEntry;
+import io.vortetty.sieves.entity.SieveBlockEntity;
+import io.vortetty.sieves.config.SieveEntry;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.LivingEntity;

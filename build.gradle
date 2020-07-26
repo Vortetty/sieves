@@ -24,9 +24,10 @@ repositories {
 			password ""
 		}
 	}
+	maven {
+		url = 'https://raw.githubusercontent.com/Devan-Kerman/Devan-Repo/master/'
+	}
 }
-
-
 
 dependencies {
 	minecraft "com.mojang:minecraft:1.16.1"
@@ -44,6 +45,10 @@ dependencies {
 
 	// mod menu compat in dev
 	modCompile "io.github.prospector:modmenu:1.12+"
+
+	// rrp
+	modImplementation group: 'net.devtech', name: 'arrp', version: '0.2.6', { exclude group: "net.fabricmc.fabric-api" }
+	include group: 'net.devtech', name: 'arrp', version: '0.2.6', { exclude group: "net.fabricmc.fabric-api" }
 }
 
 // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task

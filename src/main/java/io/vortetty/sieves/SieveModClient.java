@@ -1,8 +1,8 @@
-package draylar.sieves;
+package io.vortetty.sieves;
 
-import draylar.sieves.client.renderer.SieveBlockEntityRenderer;
-import draylar.sieves.registry.SievesContent;
-import draylar.sieves.registry.Entities;
+import io.vortetty.sieves.client.renderer.SieveBlockEntityRenderer;
+import io.vortetty.sieves.registry.SievesContent;
+import io.vortetty.sieves.registry.Entities;
 import grondag.jmx.api.RetexturedModelBuilder;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
